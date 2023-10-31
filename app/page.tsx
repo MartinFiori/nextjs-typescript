@@ -1,13 +1,15 @@
 import Link from "next/link";
+import style from './styles.module.css'
 
 export default function Home() {
-  console.log("prueba");
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>el home!</h1>
-      <Link href='/about'>
-        Ir al about
-      </Link>
+    <main className={style.style}>
+      <h1>Home page</h1>
+      <p>
+        <Link href='/users'>
+          Users
+        </Link>
+      </p>
     </main>
   );
 }

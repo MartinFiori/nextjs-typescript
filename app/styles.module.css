@@ -1,6 +1,10 @@
 .main {
   min-height: 100vh;
-  display: grid;
-  place-content: center;
+  padding: 1rem;
   background: #333;
+  color: #fafafa;
+}
+
+.main a {
+  color: #fafafa;
 }

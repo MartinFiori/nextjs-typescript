@@ -6,9 +6,9 @@ interface layoutProps {
 
 export default function AboutLayout({ children }: layoutProps) {
   return (
-    <>
+    <main>
       <h1>layout desde el about</h1>
       {children}
-    </>
+    </main>
   );
 }
